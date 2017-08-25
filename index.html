@@ -29,7 +29,13 @@
 	<section>
 	 <div id="twosections"><br>
 		<div class="side1">
-			<img src="styles/images/obamas.png" alt="obamas">
+			<img src="styles/images/obamas.png" alt="obamas" class="blur"></a>
+
+
+
+
+
+
 			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat erat at placerat tincidunt. Morbi luctus tincidunt euismod. Curabitur convallis purus id euismod blandit. Maecenas non erat purus. Vivamus id vulputate ante. Aenean metus turpis, venenatis sit amet viverra ac, dictum eu mauris. Donec accumsan neque vitae felis sagittis congue. Vivamus vehicula ipsum vitae neque blandit, a pharetra urna ultrices. Aliquam in est elementum, mattis purus quis, finibus odio. Aliquam erat volutpat. Donec id interdum nunc. Aenean interdum mollis elit, eu commodo nisi volutpat non. Nullam suscipit consectetur enim, consectetur vehicula tortor luctus eu. Vivamus pellentesque enim quis nisi malesuada vestibulum. Donec scelerisque dolor leo, tincidunt varius nisi ultrices sit amet.</p>
 			<!-- <br>
 			<button>Visit Official Website</button> -->
@@ -43,6 +49,16 @@
 		</div><!--side2-->
 	</div><!--two sections-->	
 </section>
+
+
+
+
+
+
+
+
+
+
 <section>	
 		<div id="googlemap">Google Map</div>		
 </section>
@@ -52,13 +68,13 @@
 <div id="map"></div>
     <script>
       function initMap() {
-        var uluru = {lat: 41.799935, lng: -87.588022};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
+        var library = {lat: 41.799935, lng: -87.588022};
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: library
         });
         var marker = new google.maps.Marker({
-          position: uluru,
+          position: library,
           map: map
         });
       }
@@ -74,6 +90,7 @@
 
 	<footer>Created by Traci Williams</footer>
 
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
 <script src="scripts/app.js"></script>
 </body>
